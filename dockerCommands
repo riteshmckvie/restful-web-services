@@ -1,0 +1,8 @@
+docker build -f Dockerfile -t restful-web-services .
+docker -v
+docker images
+docker run -p 8085:8085 restful-web-services.jar 
+docker container ls -a (check the container which is using that port number )
+docker container rm -f (Deallocate the port by removing that container)
+docker rm 8b3c203b4a1e (to remove container by id)
+docker rmi b3ca32fbd91c (to remove image)
