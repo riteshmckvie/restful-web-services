@@ -6,3 +6,8 @@ docker container ls -a (check the container which is using that port number )
 docker container rm -f (Deallocate the port by removing that container)
 docker rm 8b3c203b4a1e (to remove container by id)
 docker rmi b3ca32fbd91c (to remove image)
+PODA(PACKAGE ONCE DEPLOY ANYWHERE) --> This is called for Image in Docker
+WORA(WRITE ONCE RUN ANYWHERE) --> This is called for Jars in jvm
+IMGAE(Build) ->> REGISTERY(Ship) ->> CONTAINER(Run)
+DOCKER MACHINE ->> Creation of Docker host on computer or cloud server(configure docker client,create and pull images,start and stop containers,upgrade docker)
+
